@@ -26,4 +26,11 @@ const myFunction = function(){  //function object
     console.log("hello world")
 }
 
+// *****************************
+//memory 1 stack 2 heap
+//      primitive  non-primitive
+//      you will get copy if any data moves in stack memory
+//      but in heap you will get direct reference of that data
+
+let myYoutubename = "hitesh"
 
