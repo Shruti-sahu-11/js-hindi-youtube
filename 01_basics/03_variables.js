@@ -16,3 +16,34 @@ let hi = 5
 bi=String(hi)
 console.log(bi)
 console.log(typeof(bi))
+
+// ***************************operations***************//
+ 
+let ver = 2
+let neg = -ver
+console.log(neg)
+
+console.log(2-2);
+console.log(2+2);
+console.log(2*2);
+console.log(2**2); //power
+console.log(2/2);
+console.log(2%2);
+
+let str1 = "hello"
+let str2 = "hitesh"
+let str3 = str1 + str2
+console.log(str3);
+//**********comparison******** */
+
+
+console.log(2>1)
+console.log(2>=1)
+console.log(2<=1)
+console.log(2==1)
+console.log(2!=1)
+
+
+console.log("2">1);
+console.log(2>1) //we dont have comapre diff data types values
+
