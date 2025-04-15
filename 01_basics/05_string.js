@@ -12,7 +12,7 @@ console.log(myname.length);
 console.log(myname.charAt(3));
 console.log(myname.indexOf('t'));
 
-let newname = myname.substring(0,4)
+let newname = myname.substring(0,4)//we cant give -ve value in substring
 console.log(newname);
 
 let othername = myname.slice(0,4)
@@ -29,7 +29,9 @@ console.log(a.replace("nikhil","shruti"));//it will replace nikhil with shruti
 
 console.log(a.includes("nikhil"));//this will if it is present in string or not
 console.log(a.includes("pillu"));//this will if it is present in string or not
+let score = 78
+console.log(score.toString());
+
 
 console.log(a.split('-'));
-
 
